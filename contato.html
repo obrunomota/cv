@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Contatos</h1>
+    <p><strong>Telefone:</strong>(11) 93468-4397</p>
+    <p><strong>E-mail:</strong>bruengprod@gmail.com</p>
+    
+    <hr>
+    
+    <form action="mailto:bruengprod@gmail.com" method="post" enctype="text/plain">
+        <label for="nome">Nome:</label>
+        <br>
+        <input id="nome" name="nome" type="text" required>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <br>
+        <input id="email" name="email" type="email" required>
+        <br>
+
+        <label for="mensagem">Mensagem:</label>
+        <br>
+        <textarea id="mensagem" name="mensagem" rows="10" cols="30"></textarea required>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>    
+</body>
+</html>
